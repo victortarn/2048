@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=GameSquare
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GameSquare\ here.\r\n\ \r\n\ @author\ Victor\ Tarnovski\ \r\n\ @version\ v1.1\ 31.03.2020\r\n
+comment1.params=
+comment1.target=GameSquare()
+comment2.params=valueIn
+comment2.target=GameSquare(int)
+comment3.params=direction
+comment3.target=void\ move(int)
+comment3.text=\r\n\ Tell\ the\ block\ to\ move\ in\ the\ given\ direction\ until\ it\ hits\ an\ obstacle\r\n\ \r\n\ @param\ The\ direction\ in\ which\ the\ block\ is\ to\ move\ (UP\ \=\ 0;\ RIGHT\ \=\ 1;\ DOWN\ \=\ 2;\ LEFT\ \=\ 3;\r\n
+comment4.params=valueIn
+comment4.target=boolean\ setValue(int)
+comment4.text=\r\n\ Sets\ the\ value\ of\ the\ game\ square\ to\ the\ value\ of\ the\ input\ parameter.\r\n\ Will\ only\ work\ if\ the\ value\ is\ a\ factor\ of\ 2\r\n\ \r\n\ @param\ The\ number\ to\ use\ as\ the\ new\ value\r\n\ @return\ If\ the\ number\ was\ set\ correctly\ return\ true,\ otherwise\ return\ false\r\n
+comment5.params=valueIn
+comment5.target=boolean\ merge(int)
+comment5.text=\r\n\ Merge\ with\ another\ block\ and\ combine\ values.\r\n\ Will\ only\ work\ if\ the\ two\ blocks\ are\ of\ the\ same\ value\r\n\ \r\n\ @param\ The\ value\ of\ the\ block\ to\ be\ added\r\n\ \r\n\ @return\ Return\ true\ if\ the\ merge\ is\ successful.\r\n
+comment6.params=
+comment6.target=int\ getValue()
+comment6.text=\r\n\ Returns\ the\ current\ value\ of\ the\ gameSquare\r\n\ \r\n\ @return\ The\ current\ value\ (int)\ of\ the\ game\ square\r\n
+comment7.params=direction
+comment7.target=int\ canMove(int)
+comment7.text=\r\n\ Checks\ to\ see\ if\ the\ block\ can\ move\r\n\ \r\n\ @param\ The\ direction\ in\ which\ the\ block\ is\ to\ move\ (UP\ \=\ 0;\ RIGHT\ \=\ 1;\ DOWN\ \=\ 2;\ LEFT\ \=\ 3;\r\n\r\n\ \ \ \ \ \r\n\ @return\ int\ value\ representing\ what\ is\ in\ the\ space\ to\ be\ moved\ to.\ \ 0\ ->\ Path\ Blocked,\ 1\ ->\ Empty\ Space,\ int>1\ value\ of\ block\ in\ the\ space\ to\ be\ moved\ to.\r\n
+comment8.params=
+comment8.target=void\ displayValue()
+comment8.text=\r\n\ displayValue\ -\ Displays\ the\ current\ value\ of\ a\ block\ in\ an\ image,\ then\ sets\ that\ image\ to\ the\ block\ display\ image\r\n
+numComments=9

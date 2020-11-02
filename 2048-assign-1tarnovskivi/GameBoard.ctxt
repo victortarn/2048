@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=GameBoard
+comment0.text=\r\n\ This\ is\ a\ simple\ game\ where\ you\ join\ together\ boxes\ of\ the\ same\ value\ and\ try\ to\ get\ to\ 2048\r\n\ \r\n\ This\ assignment\ is\ to\ get\ you\ familar\ with\ workin\ in\ an\ OO\ environment\ and\ \r\n\ to\ get\ you\ used\ to\ accessing\ and\ using\ java\ documentation.\ \ Below\ are\ two\r\n\ useful\ links\ that\ will\ help\ you.\r\n\ \r\n\ Greenfoot\ Javadoc\:\ \ https\://www.greenfoot.org/files/javadoc/\r\n\ Java\ 8\ List\ Javadoc\ \:\ https\://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html\r\n\ \r\n\ I\ also\ talk\ about\ access\ control\ in\ the\ video\ and\ you\ might\ find\ this\ page\r\n\ interesting\ to\ check\ out\ if\ you\ want\ to\ know\ more\ about\ different\ java\r\n\ class\ types\ \:\ https\://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html\r\n\ \r\n\ Extra\ Videos\:\ be\ sure\ to\ check\ out\ the\ extra\ videos\ I\ will\ be\ releasing\ later\ this\ week\ on\ the\ following\ topics\:\r\n\ Overloading\ of\ constructors\ (this\ and\ super)\r\n\ Incompatible\ types\ error\ discussion\r\n\ Controlling\ debugging\ with\ boolean\ and\ print\ statements\r\n\ Placement\ of\ blocks\ -\ simple\ vs\ efficient\ (cut\ from\ Kat\ 17min\ video)\r\n\ \r\n\ @author\ Victor\ Tarnovski\r\n\ @version\ v2.0\ 05.04.2020\r\n
+comment1.params=
+comment1.target=GameBoard()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ \r\n
+comment2.params=
+comment2.target=boolean\ placeRandomBlock()
+comment2.text=\r\n\ Place\ a\ block\ on\ a\ random\ location\ on\ the\ board\r\n\ \r\n\ @return\ Returns\ true\ if\ successful,\ false\ if\ not\ successful\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ Check\ for\ key\ presses\ and\ tell\ each\ block\ to\ move\ itsself.\r\n
+comment4.params=
+comment4.target=int\ NumberOfOpenSpaces()
+comment4.text=\r\n\ Calculates\ the\ number\ of\ open\ spaces\r\n\ \r\n\ @return\ Returns\ the\ number\ of\ open\ spaces\r\n
+comment5.params=
+comment5.target=void\ CheckForWin()
+comment6.params=
+comment6.target=void\ CheckForLoss()
+numComments=7
